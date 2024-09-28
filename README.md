@@ -1,3 +1,21 @@
+# DESAFIO DSFilter
+
+## Requisitos
+- O projeto deve conter os componentes principais de cabeçalho, corpo da listagem, card de filtro, card de listagem.
+
+- A lista de produtos deve ser passada como Prop para o card de listagem.
+
+- O card de filtro deve emitir um evento onFilter(min, max). Este evento serve para comunicar os preços mínimo e máximo sempre que o formulário for submetido.
+
+- Context API utilizada para manter o estado global do número de produtos mostrados na tela. Sempre que for feita uma nova filtragem e o número de produtos listados mudar, o número deve ser atualizado no cabeçalho.
+
+## Competencias
+- Comunicação entre componentes React.
+
+- Comunicação de componentes por meio de eventos.
+
+- Estado global com Context API.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
