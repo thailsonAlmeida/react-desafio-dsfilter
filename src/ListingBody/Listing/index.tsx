@@ -1,45 +1,17 @@
 import './styles.css';
+import { ProductDTO } from '../../dtos/ProductDTO.tsx';
 
-export default function Listing(){
+type Props = {
+    product : ProductDTO;
+}
+
+export default function Listing( { product } : Props){
     return(
-        <>
-            <section className="container card">
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div>  
-
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                <div className="cad-listing">
-                    <h2>PC Gamer</h2>
-                    <p>R$ 1200.00</p>
-                </div> 
-                
-                             
-            </section>
+        <>        
+            <div className="cad-listing">
+                <h2>{product.name}</h2>
+                <p>{product.price}</p>
+            </div> 
         </>
     );
 }
