@@ -1,0 +1,35 @@
+header{
+    height: 70px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-secondary);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;   
+
+}
+header h1 {
+    color: var(--color-font-secondary); 
+    font-size: 20px;  
+    font-weight: 700;
+    float: left;
+}
+
+header p{
+    float: right;
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+.nav-notSelectedPrimary{
+    color: var(--color-font-secondary);
+    font-weight: 700;
+}
+
+.nav-SelectedPrimary{
+    color: var(--color-font-secondary);
+}
+
+.container img{
+    float: right;
+}

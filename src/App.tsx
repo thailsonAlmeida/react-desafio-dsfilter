@@ -1,7 +1,9 @@
+import ListingBody from "./ListingBody";
+
 function App() {
   
   return (
-    <h1>Helo Desafio</h1>
+    <ListingBody />
   );
 }
 

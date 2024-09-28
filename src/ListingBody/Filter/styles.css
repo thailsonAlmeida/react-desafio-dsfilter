@@ -1,0 +1,25 @@
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: solid 1px var(--color-bg-primary);
+    width: 200px;
+    height: 40px;
+    
+}
+
+::placeholder{
+    color: var(--color-bg-primary);
+}
+
+button{
+    background: var(--color-bg-secondary);
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: var(--color-font-secondary);
+    font-weight: 700;
+    font-size: 16px;
+}
+

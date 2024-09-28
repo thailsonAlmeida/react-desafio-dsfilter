@@ -1,0 +1,18 @@
+.cad-listing{
+    width: 100%;
+    border: 1px solid var(--color-bg-secondary);
+    padding: 10px;
+    border-radius: 4px;    
+    margin-bottom: 10px;
+}
+
+.cad-listing h2{
+    color: var(--color-font-tertiary);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.cad-listing p{
+    font-weight: 700;
+    color: var(--color-font-primary);
+}
