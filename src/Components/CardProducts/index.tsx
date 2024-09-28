@@ -1,4 +1,5 @@
 type Props ={
+    id: number,
     name: string,
     price: number,
 }

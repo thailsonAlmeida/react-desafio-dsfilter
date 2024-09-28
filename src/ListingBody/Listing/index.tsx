@@ -1,5 +1,6 @@
 import './styles.css';
 import { ProductDTO } from '../../dtos/ProductDTO.tsx';
+import CardProduct from '../../Components/CardProducts/index.tsx';
 
 type Props = {
     product : ProductDTO;
@@ -7,11 +8,8 @@ type Props = {
 
 export default function Listing( { product } : Props){
     return(
-        <>        
-            <div className="cad-listing">
-                <h2>{product.name}</h2>
-                <p>{product.price}</p>
-            </div> 
+        <>   
+            <CardProduct id={product.id} name={product.name} price={product.price} />
         </>
     );
 }
